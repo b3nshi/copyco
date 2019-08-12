@@ -1,0 +1,18 @@
+{
+  "name": "CopyCo",
+  "version": "1.0",
+  "description": "Copy/Paste cookies from one domain to another",
+  "manifest_version": 2,
+  "permissions": ["storage", "cookies", "tabs", "<all_urls>"],
+  "browser_action": {
+    "default_title": "Copyco",
+    "default_icon": "images/copyco-logo-48.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "images/copyco-logo-16.png",
+    "32": "images/copyco-logo-32.png",
+    "48": "images/copyco-logo-48.png",
+    "128": "images/copyco-logo-128.png"
+  }
+}

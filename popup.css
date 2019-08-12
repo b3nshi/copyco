@@ -1,0 +1,47 @@
+h1,
+h3 {
+  color: #3b444e;
+  font-size: 24px;
+}
+
+button {
+  background: red;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 32px;
+  max-width: 150px;
+  padding: 0 15px;
+  text-align: center;
+  width: 100%;
+}
+
+button:disabled {
+  opacity: .6;
+}
+
+button#copyCookies {
+  background-color: #cb1724;
+}
+
+button#pasteCookies {
+  background-color: #49a9f3;
+}
+
+.cookieName {
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  max-width: 400px;
+  padding: 0;
+}
