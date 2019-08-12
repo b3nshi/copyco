@@ -33,7 +33,7 @@ to your localhost.
         <a href="https://github.com/mateoguzmana">
             <img src="https://avatars2.githubusercontent.com/u/20783123?s=460&v=4" width="100px;" alt="Mateo Guzmán"/>
             <br />
-            <sub><b>Mateo Guzmaán</b></sub>
+            <sub><b>Mateo Guzmán</b></sub>
         </a>
     </td>
   </tr>
