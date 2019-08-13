@@ -4,16 +4,25 @@ const listCookies = document.getElementById("listCookies");
 const pasteCookies = document.getElementById("pasteCookies");
 
 const readCookies = function() {
-  listCookies.innerHTML = "";
   chrome.storage.sync.get(COPYCO_DATA, function(data) {
     const cookies = JSON.parse(data[COPYCO_DATA]);
-    cookies.forEach((cookie) => {
-      const li = document.createElement("LI");
-      li.innerHTML = `
-        <span class="cookieName">${cookie.name}</span>
-        <span class="cookieValue">${cookie.value}</span>
+    cookies.forEach((cookie, index) => {
+      let row = listCookies.insertRow();
+      row.innerHTML = index === 0
+      ? `
+        <tr>
+          <td class="cookieName">Name</td>
+          <td class="cookieValue">Value</td>
+          <td></td>
+        </tr>
+      `
+      : `
+        <tr>
+          <td class="cookieName">${cookie.name}</td>
+          <td class="cookieValue">${cookie.value}</td>
+          <td class="delete-cookie-${index}">X</td>
+        </tr>
       `;
-      listCookies.appendChild(li);
     });
 
     if (cookies.length === 0) {

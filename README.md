@@ -20,5 +20,21 @@ to your localhost.
 
 #### Collaborators
 
-* Mateo Guzman
-* Benjamin Simon
+<table>
+  <tr>
+    <td align="center">
+        <a href="https://github.com/b3nshi">
+            <img src="https://avatars0.githubusercontent.com/u/5185291?s=400&v=4" width="100px;" alt="Benjamin Simon"/>
+            <br />
+            <sub><b>Benjamin Simon</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/mateoguzmana">
+            <img src="https://avatars2.githubusercontent.com/u/20783123?s=460&v=4" width="100px;" alt="Mateo Guzmán"/>
+            <br />
+            <sub><b>Mateo Guzmán</b></sub>
+        </a>
+    </td>
+  </tr>
+</table>

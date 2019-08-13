@@ -11,10 +11,10 @@ button {
   color: #fff;
   font-size: 16px;
   line-height: 32px;
-  max-width: 150px;
+  max-width: 100px;
   padding: 0 15px;
   text-align: center;
-  width: 100%;
+  width: 50%;
 }
 
 button:disabled {
@@ -44,4 +44,24 @@ ul {
   margin: 0;
   max-width: 400px;
   padding: 0;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
